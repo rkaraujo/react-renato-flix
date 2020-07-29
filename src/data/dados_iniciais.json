@@ -1,0 +1,114 @@
+{
+    "categorias": [
+      {
+        "titulo": "Software",
+        "link": "https://www.youtube.com/c/FabioAkita1990/",
+        "cor": "#6BD1FF",
+        "videos": [
+          {
+            "titulo": "Não Terceirize suas Decisões!",
+            "url": "https://www.youtube.com/watch?v=D3L8IOncLkg"
+          },
+          {
+            "titulo": "RANT: Programação NÃO É Fácil",
+            "url": "https://www.youtube.com/watch?v=V7oUDL7E1g4"
+          },
+          {
+            "titulo": "O Guia +Hardcore de Introdução à COMPUTAÇÃO",
+            "url": "https://www.youtube.com/watch?v=8G80nuEyDN4"
+          },
+          {
+            "titulo": "Aprendendo sobre Computadores com Super Mario (do jeito Hardcore++)",
+            "url": "https://www.youtube.com/watch?v=hYJ3dvHjeOE"
+          },
+          {
+            "titulo": "Visualization and Comparison of Sorting Algorithms",
+            "url": "https://www.youtube.com/watch?v=ZZuD6iUe3Pc"
+          }          
+        ]
+      },
+      {
+        "titulo": "Real Life Software Development",
+        "cor": "#9cd33b",
+        "videos": [
+          {
+            "titulo": "The Expert",
+            "url": "https://www.youtube.com/watch?v=BKorP55Aqvg"
+          },
+          {
+            "titulo": "Microservices",
+            "url": "https://www.youtube.com/watch?v=y8OnoxKotPQ"
+          },
+          {
+            "titulo": "Coding interview except everyone is honest (parody)",
+            "url": "https://www.youtube.com/watch?v=TLQM8Bn9JSg"
+          },
+          {
+            "titulo": "The Expert: Progress Meeting (Short Comedy Sketch)",
+            "url": "https://www.youtube.com/watch?v=u8Kt7fRa2Wc"
+          }
+        ]
+      },
+      {
+        "titulo": "Not Real Life Software Development",
+        "cor": "red",
+        "videos": [
+          {
+            "titulo": "80s Computer Hacking: A Supercut",
+            "url": "https://www.youtube.com/watch?v=rUGQHdYUIEo"
+          },
+          {
+            "titulo": "90s Computer Hacking Supercut: A Whole New World",
+            "url": "https://www.youtube.com/watch?v=bbOEHcA-71I"
+          }
+
+        ]
+      },
+      {
+        "titulo": "Architecture",
+        "cor": "orange",
+        "videos": [
+          {
+            "titulo": "Scalability - Harvard Web Development",
+            "url": "https://www.youtube.com/watch?v=-W9F__D3oY4"
+          }
+        ]
+      },
+      {
+        "titulo": "Other",
+        "cor": "#00C86F",
+        "videos": [
+            {
+                "titulo": "Vocês são Burros assim mesmo ou estão de Sacanagem?",
+                "url": "https://www.youtube.com/watch?v=P0mSy1H2LOQ"
+              },
+              {
+                "titulo": "Spectreman-A Morte do Dr. Gori",
+                "url": "https://www.youtube.com/watch?v=80SSXCgdCuU"
+              }
+            ]
+      },
+      {
+        "titulo": "Life",
+        "cor": "#6b5be2",
+        "videos": [
+          {
+            "titulo": "O trote terrível - Vida e música - by Alan Watts",
+            "url": "https://www.youtube.com/watch?v=2zV5ukbm6sA"
+          },
+          {
+            "titulo": "HOMEM - MAN (Steve Cutts)",
+            "url": "https://www.youtube.com/watch?v=5XqfNmML_V4"
+          },
+          {
+            "titulo": "A Mente - Alan Watts",
+            "url": "https://www.youtube.com/watch?v=uDgRTLTX7mQ"
+          },
+          {
+            "titulo": "Inside the mind of a master procrastinator",
+            "url": "https://www.youtube.com/watch?v=arj7oStGLkU"
+          }
+        ]
+      }
+    ]
+  }
