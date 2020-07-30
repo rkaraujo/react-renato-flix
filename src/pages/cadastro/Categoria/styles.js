@@ -30,21 +30,28 @@ export const ButtonSalvar = styled.button`
 
 export const CategoriaListaTable = styled.table`
     border: 2px solid var(--primary);
-    border-collapse: collapse;
     border-spacing: 0;
     margin-bottom: 25px;
     margin-top: 40px;
     width: 100%;
 
     & th {
-        border: 2px solid var(--primary);
+        border-bottom: 2px solid var(--primary);
+        border-left: 2px solid var(--primary);
+        padding-bottom: 5px;
+        padding-top: 5px;
         font-size: 20px;
+    }
+    & thead tr th:first-child {
+        border-left: 0;
     }
 
     & tbody td {
         border: 2px solid var(--black);
         color: var(--grayMedium);
+        padding-bottom: 5px;
         padding-left: 15px;
+        padding-top: 5px;
     }
 
     & tbody tr:first-child td {
