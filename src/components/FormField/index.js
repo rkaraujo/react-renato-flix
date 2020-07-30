@@ -45,7 +45,7 @@ const Input = styled.input`
   border-top: 4px solid transparent;
   border-bottom: 4px solid #53585D;
   
-  padding: ${(props) => (props.type === 'color' ? '0' : '16px')};
+  padding: ${(props) => (props.type === 'color' ? '5px' : '16px')};
   margin-bottom: 45px;
   
   resize: none;
