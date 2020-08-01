@@ -1,0 +1,150 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Software",
+      "descricao": "Vídeos sobre Software",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "titulo": "Real Life Software Development",
+      "descricao": "Vídeos sobre a dura vida do desenvolvedor de software",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 3,
+      "titulo": "Not Real Life Software Development",
+      "descricao": "Vídeos sobre o que outras pessoas pensam que um desenvolvedor faz",
+      "cor": "red"
+    },
+    {
+      "id": 4,
+      "titulo": "Other",
+      "descricao": "Outros vídeos aleatórios",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Life",
+      "descricao": "Vídeos para refletir",
+      "cor": "#6b5be2"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Não Terceirize suas Decisões!",
+      "url": "https://www.youtube.com/watch?v=D3L8IOncLkg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "RANT: Programação NÃO É Fácil",
+      "url": "https://www.youtube.com/watch?v=V7oUDL7E1g4"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "O Guia +Hardcore de Introdução à COMPUTAÇÃO",
+      "url": "https://www.youtube.com/watch?v=8G80nuEyDN4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Aprendendo sobre Computadores com Super Mario (do jeito Hardcore++)",
+      "url": "https://www.youtube.com/watch?v=hYJ3dvHjeOE"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Visualization and Comparison of Sorting Algorithms",
+      "url": "https://www.youtube.com/watch?v=ZZuD6iUe3Pc"
+    },
+    {
+      "id": 100,
+      "categoriaId": 1,
+      "titulo": "Scalability - Harvard Web Development",
+      "url": "https://www.youtube.com/watch?v=-W9F__D3oY4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Coding interview except everyone is honest (parody)",
+      "url": "https://www.youtube.com/watch?v=TLQM8Bn9JSg"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Microservices",
+      "url": "https://www.youtube.com/watch?v=y8OnoxKotPQ"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "The Expert",
+      "url": "https://www.youtube.com/watch?v=BKorP55Aqvg"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "The Expert: Progress Meeting (Short Comedy Sketch)",
+      "url": "https://www.youtube.com/watch?v=u8Kt7fRa2Wc"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "80s Computer Hacking: A Supercut",
+      "url": "https://www.youtube.com/watch?v=rUGQHdYUIEo"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "90s Computer Hacking Supercut: A Whole New World",
+      "url": "https://www.youtube.com/watch?v=bbOEHcA-71I"
+    },
+    {
+      "id": 12,
+      "categoriaId": 4,
+      "titulo": "Vocês são Burros assim mesmo ou estão de Sacanagem?",
+      "url": "https://www.youtube.com/watch?v=P0mSy1H2LOQ"
+    },
+    {
+      "id": 13,
+      "categoriaId": 4,
+      "titulo": "Spectreman-A Morte do Dr. Gori",
+      "url": "https://www.youtube.com/watch?v=80SSXCgdCuU"
+    },
+    {
+      "id": 14,
+      "categoriaId": 5,
+      "titulo": "O trote terrível - Vida e música - by Alan Watts",
+      "url": "https://www.youtube.com/watch?v=2zV5ukbm6sA"
+    },
+    {
+      "id": 15,
+      "categoriaId": 5,
+      "titulo": "HOMEM - MAN (Steve Cutts)",
+      "url": "https://www.youtube.com/watch?v=5XqfNmML_V4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 5,
+      "titulo": "A Mente - Alan Watts",
+      "url": "https://www.youtube.com/watch?v=uDgRTLTX7mQ"
+    },
+    {
+      "id": 17,
+      "categoriaId": 5,
+      "titulo": "Inside the mind of a master procrastinator",
+      "url": "https://www.youtube.com/watch?v=arj7oStGLkU"
+    },
+    {
+      "titulo": "10 mitos sobre tech startups",
+      "url": "https://www.youtube.com/watch?v=jkHnPxsiyGk",
+      "categoriaId": 1,
+      "id": 101
+    }
+  ]
+}

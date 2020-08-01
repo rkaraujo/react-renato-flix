@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import ButtonPrimary from '../../../components/ButtonPrimary/styles';
+import categoriaRepository from '../../../repositories/categoriasRepository';
 import {
-  CadastroWrapper, CadastroForm, ButtonSalvar, CategoriaListaTable,
+  CadastroWrapper, CadastroForm, CategoriaListaTable,
 } from './styles';
+import useForm from '../../../hooks/useForm';
 
 const listaCategoriaRows = (categorias) => categorias.map((categoria, indice) => (
   <tr key={`${categoria.nome}-${indice}`}>
-    <td>{categoria.nome}</td>
+    <td>{categoria.titulo}</td>
     <td>{categoria.descricao}</td>
-    <td><a href="#">Editar</a></td>
-    <td><a href="#">Remover</a></td>
+    <td><div style={{ width: '100%', height: '18px', background: categoria.cor }} /></td>
   </tr>
 ));
 
@@ -20,8 +22,7 @@ const CategoriaLista = ({ categorias }) => (
       <tr>
         <th>Nome</th>
         <th>Descrição</th>
-        <th>Editar</th>
-        <th>Remover</th>
+        <th>Cor</th>
       </tr>
     </thead>
     <tbody>
@@ -34,20 +35,11 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#00F',
   };
-  const [values, setValues] = useState(valoresIniciais);
-
-  const handleChange = (e) => {
-    const chave = e.target.getAttribute('name');
-    const valor = e.target.value;
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  };
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -55,20 +47,13 @@ function CadastroCategoria() {
       ...categorias,
       values,
     ]);
-    setValues(valoresIniciais);
+    clearForm();
   };
 
   useEffect(() => {
-    const URL = 'https://rka-json-server.herokuapp.com/categorias';
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        if (respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
-      });
+    categoriaRepository.getAll()
+      .then((resposta) => setCategorias(resposta))
+      .catch((error) => console.error(error.message));
   }, []);
 
   let categoriaLista;
@@ -84,10 +69,10 @@ function CadastroCategoria() {
         <CadastroForm onSubmit={handleOnSubmit}>
 
           <FormField
-            label="Nome da Categoria"
+            label="Título"
             type="text"
-            name="nome"
-            value={values.nome}
+            name="titulo"
+            value={values.titulo}
             onChange={handleChange}
           />
 
@@ -107,9 +92,9 @@ function CadastroCategoria() {
             onChange={handleChange}
           />
 
-          <ButtonSalvar>
+          <ButtonPrimary>
             Salvar
-          </ButtonSalvar>
+          </ButtonPrimary>
         </CadastroForm>
 
         {categoriaLista}

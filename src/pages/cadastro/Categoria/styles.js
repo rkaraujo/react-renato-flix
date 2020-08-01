@@ -12,28 +12,16 @@ export const CadastroForm = styled.form`
     width: 100%;
 `;
 
-export const ButtonSalvar = styled.button`
-  color: var(--white);
-  background-color: var(--primary);
-  border: 1px solid var(--white);
-  box-sizing: border-box;
-  cursor: pointer;
-  padding: 16px 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-`;
-
 export const CategoriaListaTable = styled.table`
     border: 2px solid var(--primary);
     border-spacing: 0;
     margin-bottom: 25px;
     margin-top: 40px;
     width: 100%;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
 
     & th {
         border-bottom: 2px solid var(--primary);
@@ -49,9 +37,7 @@ export const CategoriaListaTable = styled.table`
     & tbody td {
         border: 2px solid var(--black);
         color: var(--grayMedium);
-        padding-bottom: 5px;
-        padding-left: 15px;
-        padding-top: 5px;
+        padding: 10px;
     }
 
     & tbody tr:first-child td {
