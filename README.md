@@ -7,7 +7,11 @@ It uses:
 - Styled components
 - React router- Hooks
 - API calls
+- json-server
+- ESlint
 
 It is hosted on:
-https://react-renato-flix.herokuapp.com/
 
+[https://react-renato-flix.herokuapp.com/](https://react-renato-flix.herokuapp.com/)
+
+![Screenshot](react-renato-flix.png)
