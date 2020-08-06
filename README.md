@@ -1,6 +1,6 @@
 # React sample application
 
-This is a React project I made following an introductory course. It has a main page like Netflix to show videos from Youtube, a create category page and a create video page.
+This is a React project I made following an introductory course from Alura. It has a main page like Netflix to show videos from Youtube, a create category page and a create video page.
 
 It uses:
 * React JS
